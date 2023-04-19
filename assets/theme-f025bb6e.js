@@ -1,0 +1,1 @@
+import{u as t,a as s}from"./@vueuse-da74ae22.js";import{d as r}from"./pinia-b26a74c5.js";const a=t(),o=s(a),i=localStorage.getItem("vueuse-color-scheme")!=="light",k=r("theme",{state:()=>({isDark:i}),getters:{isDarkFormat({isDark:e}){return e?"深色模式":"亮色模式"}},actions:{toggleDark(){this.isDark=!this.isDark,o(this.isDark)}}});export{k as u};
